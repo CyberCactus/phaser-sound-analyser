@@ -1,0 +1,33 @@
+*,
+*:after,
+*::before {
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+htnl {
+	font-family: sans-serif; /* 1 */
+    -ms-text-size-adjust: 100%; /* 2 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+	font-size: 62.5%; /* hack for using decimal values for rem similar to the real values ex: 12px = 1.2rem , we can change this value to resize up or down the size of all  the text  in the page*/
+	background-color: #FFFFFF;
+}
+
+body {
+	font-size: 14px;
+	font-size: 1.4rem;
+	margin: 0;
+	padding: 0px;
+	overflow: hidden;
+	/* for smooth font-size animation */
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	font-smoothing: antialiased;	
+	background-color: #FFFFFF;
+}
